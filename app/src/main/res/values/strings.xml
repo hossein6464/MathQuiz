@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Android 1 Final Project</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="enter_your_answer_here">Enter your answer here!</string>
+    <string name="_0_0">0 + 0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="generate">Generate</string>
+    <string name="validate">Validate</string>
+    <string name="clear">Clear</string>
+    <string name="score">Score</string>
+    <string name="finish">Finish</string>
+    <string name="point">.</string>
+    <string name="dash">-</string>
+    <string name="your_results_and_score">Your Results and Score</string>
+    <string name="register">Register:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="score_listview">Score:</string>
+    <string name="_100">100%</string>
+    <string name="back">Back</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="advanced">Advanced</string>
+    <string name="genius">Genius</string>
+    <string name="kids">Kids</string>
+    <string name="adults">Adults</string>
+    <string name="kids_match_exam">Kids Match Exam</string>
+
+</resources>

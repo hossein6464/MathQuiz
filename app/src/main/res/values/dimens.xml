@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="general_padding_margin_dimen" type="dimen">8dp</item>
+    <item name="secondary_padding_margin_dimen" type="dimen">16dp</item>
+
+    <item name="medium_margin" type="dimen">20dp</item>
+    <item name="larger_margin" type="dimen">40dp</item>
+    <item name="x_large_margin" type="dimen">50dp</item>
+    <item name="main_text_size" type="dimen">12sp</item>
+
+    <item name="secondary_text_size" type="dimen">16sp</item>
+    <item name="larger_menu_text_size" type="dimen">24sp</item>
+    <item name="main_title_text_size" type="dimen">30sp</item>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

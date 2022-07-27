@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_yellow"
+
+    tools:context=".ListViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/secondary_padding_margin_dimen"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/scoreListTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/main_title_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:text="@string/your_results_and_score" />
+
+    <ListView
+        android:id="@+id/listViewOfScores"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingTop="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/larger_margin"
+        android:background="@drawable/view_background_layout"
+>
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/register" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="5"
+            android:textAlignment="center"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_your_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/score_listview" />
+
+        <TextView
+            android:id="@+id/scorePercentageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/dark_gray"
+            android:text="@string/_100" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/goBackButton"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/secondary_padding_margin_dimen"
+            android:backgroundTint="@color/black"
+            android:onClick="backButtonToCall"
+            android:text="@string/back" />
+        <Button
+            android:id="@+id/sortBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/secondary_padding_margin_dimen"
+            android:backgroundTint="@color/black"
+            android:onClick="sortArray"
+            android:text="Sort" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
